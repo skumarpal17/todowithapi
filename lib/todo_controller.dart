@@ -30,8 +30,8 @@ class TodoController extends GetxController {
       var body = jsonDecode(response.body);
       var data = body['items'];
       print("data $data");
-      data.forEach((d) {
-        datalist.add(TodoModel.fromJson(d));
+      data.forEach((user) {
+        datalist.add(TodoModel.fromJson(user));
       });
       print("datalit $datalist");
       return datalist;

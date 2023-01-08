@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:todobyapi/randomuser/randomuser_view.dart';
 import 'package:todobyapi/todo_list.dart';
 
 void main() {
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: TodoList(),
+      home: RandomUserView(),
+      // TodoList(),
     );
   }
 }

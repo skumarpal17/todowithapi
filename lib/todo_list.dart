@@ -48,10 +48,11 @@ class TodoList extends StatelessWidget {
                 return AlertDialog(
                   backgroundColor: Colors.transparent,
                   content: SizedBox(
-                      width: MediaQuery.of(context).size.width * .6,
-                      child: AddTodo(
-                        todoController: todoController,
-                      )),
+                    width: MediaQuery.of(context).size.width * .6,
+                    child: AddTodo(
+                      todoController: todoController,
+                    ),
+                  ),
                 );
               });
         },
