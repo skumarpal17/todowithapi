@@ -6,7 +6,6 @@ import 'package:todobyapi/randomuser/randomuser_model.dart';
 class RandomUserView extends StatelessWidget {
   RandomUserView({Key? key}) : super(key: key);
   RandomController randomController = RandomController();
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
